@@ -10,8 +10,8 @@ environ.Env.read_env()
 class Adapter:
     def __init__(self, llm_type):
         self.llm_text = llm_type
-        self.ollama_url = "http://10.0.0.231:11434"
-        self.local_model = "llama3"
+        self.ollama_url = env("OLLAMA_URL")
+        self.local_model = env("OLLAMA_MODEL")
         if self.llm_text.lower() == "openai":
             from langchain_openai import ChatOpenAI
             self.llm_chat = ChatOpenAI(
