@@ -1,0 +1,115 @@
+{
+  "personality_traits": {
+    "positive": [
+      "Able", "Accepting", "Accomplished", "Affable", "Agreeable", "Amusing", 
+      "Approachable", "Artistic", "Brave", "Caring", "Charismatic", "Charming", 
+      "Compassionate", "Competent", "Considerate", "Cooperative", "Courteous", 
+      "Creative", "Dependable", "Determined", "Dignified", "Empathetic", 
+      "Energetic", "Enthusiastic", "Friendly", "Generous", "Gentle", "Gracious", 
+      "Helpful", "Honest", "Humble", "Kind Hearted", "Knowledgeable", "Loyal", 
+      "Modest", "Nurturing", "Optimistic", "Patient", "Peaceful", "Persistent", 
+      "Practical", "Reliable", "Self-Disciplined", "Selfless", "Sympathetic", 
+      "Talented", "Trusting", "Versatile", "Vivacious", "Warm", "Hearted", 
+      "Wise", "Youthful"
+    ],
+    "negative": [
+      "Abrasive", "Absent", "Minded", "Abusive", "Accident", "Prone", "Aloof", 
+      "Annoying", "Anti-Social", "Arrogant", "Blames", "Others", "Boastful", 
+      "Bossy", "Careless", "Cold", "Hearted", "Conceited", "Controlling", 
+      "Critical", "Cruel", "Cynical", "Deceitful", "Defiant", "Dishonest", 
+      "Disloyal", "Egotistic", "Greedy", "Grumpy", "Hateful", "Hostile", 
+      "Hot", "tempered", "Impatient", "Inconsiderate", "Incompetent", 
+      "Indifferent", "Insensitive", "Irresponsible", "Irritating", "Jealous", 
+      "Lazy", "Manipulative", "Moody", "Narcissistic", "Negative", "Nosy", 
+      "Pessimistic", "Petty", "Rude", "Self-Centered", "Self-Serving", 
+      "Stingy", "Suspicious", "Unkind", "Unmotivated", "Unreliable", 
+      "Unresponsive", "Vindictive"
+    ],
+    "neutral": [
+      "Animated", "Bold", "Bossy", "Calculating", "Candid", "Capable", 
+      "Capricious", "Crafty", "Curious", "Direct", "Independent", "Intense", 
+      "Introspective", "Introverted", "Intuitive", "Logical", "Observant", 
+      "Practical", "Precise", "Quiet", "Rational", "Reserved", "Serious", 
+      "Strong", "Willed", "Submissive", "Temperamental", "Witty"
+    ]
+  },
+  "emotional_states": {
+    "positive": [
+      "Amused", "Blissful", "Calm", "Cheerful", "Content", "Determined", 
+      "Elated", "Excited", "Happy", "Hopeful", "Jubilant", "Joyful", 
+      "Light-Hearted", "Optimistic", "Peaceful", "Relaxed", "Relieved", 
+      "Thrilled", "Upbeat"
+    ],
+    "negative": [
+      "Aggravated", "Agitated", "Angry", "Anxious", "Bitter", "Bored", 
+      "Cranky", "Cross", "Depressed", "Disappointed", "Distressed", 
+      "Drained", "Enraged", "Frightened", "Frustrated", "Gloomy", 
+      "Guilty", "Heartbroken", "Hostile", "Irritable", "Irritated", 
+      "Jealous", "Lonely", "Melancholy", "Morose", "Nervous", 
+      "Overwhelmed", "Pessimistic", "Resentful", "Stressed", "Tense", 
+      "Upset", "Worried"
+    ],
+    "neutral": [
+      "Conflicted", "Confused", "Embarrassed", "Eager", "Emotional", 
+      "Empowered", "Fascinated", "Hyper", "Nostalgic", "Pensive", 
+      "Restless", "Satiated", "Surprised", "Suspenseful", "Touched"
+    ]
+  },
+  "social_tendencies": {
+    "positive": [
+      "Alluring", "Amiable", "Audacious", "Communicative", "Conversational", 
+      "Entertaining", "Enthusiastic", "Exuberant", "Flirty", "Friendly", 
+      "Fun Loving", "Giddy", "Gregarious", "Jovial", "Outgoing", 
+      "Popular", "Social", "Talkative"
+    ],
+    "negative": [
+      "Aloof", "Anti-Social", "Bashful", "Coy", "Detached", "Guarded", 
+      "Introverted", "Loner", "Quiet", "Reserved", "Self-Conscious", 
+      "Shy", "Withdrawn"
+    ],
+    "neutral": [
+      "Approachable", "Charismatic", "Polite", "Tactful"
+    ]
+  },
+  "intellectual_skill_attributes": {
+    "positive": [
+      "Accomplished", "Brainy", "Clever", "Competent", "Decisive", 
+      "Educated", "Efficient", "Expert", "Focused", "Knowledgeable", 
+      "Logical", "Meticulous", "Organized", "Precise", "Professional", 
+      "Resourceful", "Talented", "Wise"
+    ],
+    "negative": [
+      "Absent Minded", "Clumsy", "Confused", "Dumb", "Inefficient", 
+      "Inept", "Incompetent", "Lazy", "Mentally Slow", "Scatterbrained"
+    ]
+  },
+  "ethical_moral_attributes": {
+    "positive": [
+      "Altruistic", "Benevolent", "Charitable", "Compassionate", 
+      "Conscientious", "Decent", "Ethical", "Fair", "Generous", "Honest", 
+      "Honorable", "Just", "Loyal", "Merciful", "Noble", "Philanthropic", 
+      "Principled", "Righteous", "Selfless", "Virtuous"
+    ],
+    "negative": [
+      "Abusive", "Deceitful", "Dishonest", "Greedy", "Manipulative", 
+      "Narcissistic", "Petty", "Rude", "Self-Centered", "Stingy", 
+      "Suspicious", "Untrustworthy", "Vindictive"
+    ],
+    "neutral": [
+      "Pragmatic", "Realistic", "Self-Serving"
+    ]
+  },
+  "temperament": {
+    "positive": [
+      "Calm", "Carefree", "Collected", "Composed", "Content", "Decisive", 
+      "Deliberate", "Dignified", "Easygoing", "Efficient", "Mellow", 
+      "Placid", "Relaxed", "Stoic", "Serene"
+    ],
+    "negative": [
+      "Abrupt", "Addict", "ADHD", "Anxious", "Bold", "Daring", "Dramatic", 
+      "Eccentric", "Energetic", "Erratic", "Fickle", "Fidgety", 
+      "Impulsive", "Instinctive", "Intense", "Moody", "Restless", 
+      "Scatterbrained", "Unpredictable"
+    ]
+  }
+}
