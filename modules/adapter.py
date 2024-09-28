@@ -15,7 +15,7 @@ class Adapter:
         if self.llm_text.lower() == "openai":
             from langchain_openai import ChatOpenAI
             self.llm_chat = ChatOpenAI(
-                temperature=0.3, openai_api_key=env("OPENAI_API_KEY")
+                temperature=0.3, model="gpt-4o", openai_api_key=env("OPENAI_API_KEY")
             )
         elif self.llm_text.lower() == "local":
             from langchain_community.chat_models import ChatOllama 
@@ -32,6 +32,8 @@ class Adapter:
                 sysprompt = prompts.Bob
             elif "charlie" in char.lower():
                 sysprompt = prompts.Charlie
+            elif "test" in char.lower():
+                sysprompt = prompts.test_prompt
             chat_template = ChatPromptTemplate.from_messages(
                 [SystemMessage(content=(sysprompt)),HumanMessagePromptTemplate.from_template(query),])
             return chat_template
