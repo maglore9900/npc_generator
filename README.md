@@ -1,4 +1,4 @@
-This is a fun little side project that aims to do crazy stuff with prompt engineering to allow the dynamic creation of Non-Player Characters (NPC) with memory, in order to allow quick generation of random ones to curated generation of main NPCs. 
+This is a fun little side project that aims to do crazy stuff with prompt engineering to allow the dynamic creation of Non-Player Characters (NPC) with memory, in order to allow quick generation of random ones, as well as curated generation of main NPCs. 
 
 Primary goal is to get at least 3 ways to generate an NPC
 1) Random attributes
