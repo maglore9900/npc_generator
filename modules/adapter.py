@@ -33,7 +33,7 @@ class Adapter:
             elif "charlie" in char.lower():
                 sysprompt = prompts.Charlie
             elif "test" in char.lower():
-                sysprompt = prompts.test_prompt
+                sysprompt = prompts.new_prompt
             chat_template = ChatPromptTemplate.from_messages(
                 [SystemMessage(content=(sysprompt)),HumanMessagePromptTemplate.from_template(query),])
             return chat_template
@@ -45,4 +45,28 @@ class Adapter:
         prompt = self.chat_template(query, char)   
         chain = prompt | self.llm_chat | StrOutputParser()
         result = chain.invoke({"topic": query})
+        return result
+    
+    def create_prompt(self, attributes):
+        # Construct the traits as a comma-delimited string
+        traits = ", ".join(attributes)
+        
+        # Define the system prompt
+        sysprompt = f"You are an imaginative writer. Create a system prompt for a fictional character with the following attributes: {traits}"
+        query = "Please generate the character prompt."
+        # Create the ChatPromptTemplate using SystemMessage and HumanMessagePromptTemplate
+        prompt = ChatPromptTemplate.from_messages([
+            SystemMessage(content=sysprompt),
+            HumanMessagePromptTemplate.from_template(query)
+        ])
+        chain = prompt | self.llm_chat | StrOutputParser()
+        # Invoke the chain to get the result
+        result = chain.invoke({"topic": query})
+        modifier = """
+        As you respond, fully embody these traits, bringing out the complexity of your character in every interaction.
+
+        If you describe actions make sure to keep them from a neutral perspective, as if you were describing them to someone else.
+
+        Do not provide any inner thoughts or feelings, only describe what you do and say."""
+        result = result + "\n" + modifier
         return result
