@@ -11,6 +11,6 @@ ad = adapter.Adapter("openai")
 # print("----")
 # print(ad.chat("What is the capital of France?", "charlie"))
 
-# print(ad.chat("Excuse me I am lost, can you tell me how to get to the townsquare?", "test"))
+print(ad.chat("Excuse me I am lost, can you tell me how to get to the townsquare?", "test"))
 
-print(ad.create_prompt(["Moody", "Absent Minded", "Depressed", "Polite", "Resourceful", "Suspicious", "Collected"]))
+# print(ad.create_prompt(["Moody", "Absent Minded", "Depressed", "Polite", "Resourceful", "Suspicious", "Collected"]))

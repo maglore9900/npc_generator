@@ -52,7 +52,7 @@ class Adapter:
         traits = ", ".join(attributes)
         
         # Define the system prompt
-        sysprompt = f"You are an imaginative writer. Create a system prompt for a fictional character with the following attributes: {traits}"
+        sysprompt = f"You are an imaginative writer. Create a system prompt for a fictional character using the following attributes: {traits}. The prompt should be in the form of a narative description without location details that will help the writer to embody the character. Start the prompt with 'You are a' followed by the character's name and the description."
         query = "Please generate the character prompt."
         # Create the ChatPromptTemplate using SystemMessage and HumanMessagePromptTemplate
         prompt = ChatPromptTemplate.from_messages([
